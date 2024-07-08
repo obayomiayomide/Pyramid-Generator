@@ -1,12 +1,15 @@
 let characterInput = document.getElementById("character-input");
 let countInput = document.getElementById("count-input");
 let checkInverted = document.getElementById();
+const generateBtn = document.getElementBtId("generate-btn");
 
 
 // const character = "#";
 // const count = 8;
 // const rows = [];
 let inverted = false;
+
+generateBtn.addEventListener("click", )
 
 function padRow(rowNumber, rowCount) {
   return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
