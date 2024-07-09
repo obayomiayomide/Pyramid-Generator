@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Pyramid Generator</title>
 </head>
 <body>
-    <div class="number">
-        <label for="pyramid-count">Number of rows</label> <br>
-        <input type="number" id="count-input" min="0" placeholder="Input number of rows" required />
+    <div class="container">
+        <div class="input">
+            <div class="number for-input">
+                <label for="count-input">Number of rows</label> <br>
+                <input type="number" id="count-input" pattern="[0-9]*"  placeholder="Input number of rows" />
+            </div>
+            <div class="character for-input">
+                <label for="character-input">Character to display</label> <br>
+                <input type="text" id="character-input" placeholder="Input character to be displayed" />
+            </div>
+        </div>
+        <button type="button" id="generate-btn" >Generate Pyramid</button>
+        <p id="output"></p>
     </div>
-    <div class="character">
-        <label for="Pyramid-character">Character to display</label> <br>
-        <input type="text" id="character-input" placeholder="Input character to be displayed" />
-    </div>
-    <button type="button" id="generate-btn" >Generate Pyramid</button>
-    
-    <div>
-        
-    </div>
-    
+
+    <script src="./script.js"></script>
 </body>
 </html>
