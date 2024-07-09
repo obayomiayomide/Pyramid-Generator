@@ -63,14 +63,6 @@ function padRow(rowNumber, rowCount) {
 
 
 // Loop code 1
-// for (let i = 1; i <= count; i++) {
-//     rows.push(padRow(i, count));
-// }
-
-//Loop code 2
-// while (rows.length < count) {
-//     rows.push(padRow(rows.length + 1, count));
-// }
 
 //Loop Code 1 for Inverted Pyramid
 // for (let i = count; i > 0; i--) {
